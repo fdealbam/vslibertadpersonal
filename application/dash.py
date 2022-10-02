@@ -724,8 +724,8 @@ body = html.Div([
     
      dbc.Row(
            [
-               dbc.Col(dbc.Button(([html.P("México", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/vslibertadpersonal/blob/main/application/static/mx.png?raw=true",
+               dbc.Col(dbc.Button(([html.P(edoname1, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/vslibertadpersonal/blob/main/application/static/Mapa México.png?raw=true",
                   style={'size': 2,}),
                           html.P(bulletedo1,
                      style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -736,8 +736,8 @@ body = html.Div([
                          
                          }, disabled=True)),
                
-               dbc.Col(dbc.Button(([html.P("Nuevo León", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/vslibertadpersonal/blob/main/application/static/nvolen.png?raw=true",
+               dbc.Col(dbc.Button(([html.P(edoname2, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/vslibertadpersonal/blob/main/application/static/Mapa Nuevo León.png?raw=true",
                                     style={'size': 2,}),
                        html.P(bulletedo2,
                               style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -755,8 +755,8 @@ body = html.Div([
     html.Br(),
     
                 dbc.Row([
-          dbc.Col(dbc.Button(([html.P("Hidalgo", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/vslibertadpersonal/blob/main/application/static/hgo.png?raw=true"),
+          dbc.Col(dbc.Button(([html.P(edoname3, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/vslibertadpersonal/blob/main/application/static/Mapa Hidalgo.png?raw=true"),
     
                        html.P(bulletedo3,
                            style={'font-size': 14, "font-family":"Arial", "text-align":"justify" }),
@@ -767,8 +767,8 @@ body = html.Div([
                          
                          }, disabled=True)),
                        
-               dbc.Col(dbc.Button(([html.P("Ciudad de México", style={"font-size": 30,"color": "black","background-color": "white"}),
-                       dbc.CardImg(src="https://github.com/fdealbam/vslibertadpersonal/blob/main/application/static/cdmx.png?raw=true"),
+               dbc.Col(dbc.Button(([html.P(edoname4, style={"font-size": 30,"color": "black","background-color": "white"}),
+                       dbc.CardImg(src="https://github.com/fdealbam/vslibertadpersonal/blob/main/application/static/Mapa Ciudad de México.png?raw=true"),
                      html.Br(),
                                      html.Br(),
                                      html.Br(),
